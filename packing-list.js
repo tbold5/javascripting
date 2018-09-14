@@ -1,6 +1,9 @@
-var packingList = ["bowls", "plates", "pots", "pans", "eating utensils", "glasses", "cups", "cooking utensils"];
+var horny = 10;
 
-console.log("Kitchen stuff to pack:");
-for (var i = 0; i < packingList.length; i++) {
-  console.log(packingList[i]);
-}
+if (horny < 10) {
+  console.log("More foreplay!");
+} else if (horny > 10) {
+  console.log("Banshuauan!");
+} else (horny < 0) {
+    console.log("No sex tonight!");
+  }
